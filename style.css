@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.logo {
+  width: 172px;
+  height: 43px;
+}
+.header {
+  width: 100vw;
+  height: 76px;
+  background: #f8fff3;
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  padding-left: 60px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.5rem;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  background-color: #0b5394; /* Green */
+  border: none;
+  border-radius: 55px;
+  color: white;
+  width: 113px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.hero {
+  padding-top: 10px;
+  width: 100vw;
+  height: 1000px;
+  background-color: #020d17;
+  background-image: url(./Assets/Mask\ group.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.gradient {
+  width: 100vw;
+  height: 699px;
+
+  background: linear-gradient(to bottom, #79b6529e, #79b65200);
+}
+
+.bg-ev {
+  height: 272px;
+  opacity: 8%;
+  left: -34px;
+}
+.ev-heading {
+  font-family: Montserrat;
+  font-size: 210px;
+  font-weight: 800;
+  line-height: 272px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.hero-element {
+  position: absolute;
+  top: 168px;
+  left: 423px;
+  max-width: 753px;
+  text-align: center;
+}
+
+.hero-element h2 {
+  font-size: 103px;
+  color: #98ff56;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero-element span {
+  font-size: 40px;
+  display: block;
+  /* line-height: 48.76px; */
+}
+
+.hero-element p {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px;
+}
+.hero-btn {
+  background-color: #0b5394; /* Green */
+  border: 1px solid white;
+  border-radius: 55px;
+  color: white;
+  width: 113px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 950px;
+  left: 746px;
+  width: 108px;
+  height: 108px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.arrow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #79b6529e, #79b65200);
+}
+
+.arrow-img {
+  width: 31px;
+  color: #ffffff;
+}
